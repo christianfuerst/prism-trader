@@ -1,0 +1,23 @@
+{
+  "name": "prism-trader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.2",
+    "@types/signale": "^1.4.4",
+    "tslint": "^5.20.1",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@terra-money/terra.js": "^3.0.7",
+    "dotenv": "^16.0.0",
+    "signale": "^1.4.0"
+  }
+}
